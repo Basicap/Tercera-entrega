@@ -1,0 +1,47 @@
+.footer-bg
+{
+    background-image: url(https://i.pinimg.com/originals/40/c4/ef/40c4ef6495c16c94b8b98d5ba9da78d0.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo-1
+{
+    margin-bottom: 15px;
+}
+
+.campo 
+{
+    margin: 5px;
+    padding: 20px 15px;
+    width: 250px;
+    background-color: #0e0e0e;
+    border: 1px solid #CF2D3A;
+    outline: none;
+    border-radius:  10px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+textarea
+{
+    width: 520px !important;
+}
+
+.footer-txt 
+{
+    text-align: left;
+    padding: 10px;
+    background-color: #070707;
+
+}

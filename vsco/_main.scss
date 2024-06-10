@@ -1,0 +1,167 @@
+.welcome 
+{
+  display: flex;
+}
+
+.welcome-1 {
+  background-image: url(https://i.pinimg.com/originals/72/78/ab/7278ab3d9797efd73267dfc11a9f709b.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+
+.welcome-2 {
+  width: 50%;
+  padding: 150px 250px 150px 100px;
+  background-color: #191919;
+}
+
+h2 {
+  font-size: 90px;
+  line-height: 100px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+p {
+  font-size: 16px;
+  color: #afafaf;
+  margin: 25px 0;
+}
+
+.b1 {
+  color: #cf2d3a;
+}
+
+.services {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.services-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+hr {
+  border: 1px solid #cf2d3a;
+  width: 80px;
+}
+
+.services-txt p {
+  padding: 50px 150px;
+}
+
+.services-group {
+  display: flex;
+  justify-content: space-between;
+  margin: 45px 0;
+}
+
+.services-1 {
+  background-color: #070707;
+  padding: 35px 25px;
+  margin: 0 100px;
+  border-radius: 15px;
+}
+
+.services-1 img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.services-1 h3 {
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.services-1 a {
+  color: #cf2d3a;
+  font-size: 16px;
+}
+
+.prices {
+  display: flex;
+}
+
+.prices-1 {
+  width: 50%;
+  padding: 150px 250px 150px 100px;
+  background-color: #191919;
+}
+
+table {
+  margin: 50px 0;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+tr {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #afafaf;
+  margin-bottom: 20px;
+}
+
+th {
+  color: #ffffff;
+  padding-bottom: 15px;
+}
+
+td {
+  color: #CF2D3A;
+}
+
+.prices-2 {
+  background-image: url(https://images.unsplash.com/photo-1622599511051-16f55a1234d0?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJveGluZ3xlbnwwfHwwfHx8MA%3D%3D);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+
+.personal {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.personal-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.personal-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.personal-1 {
+  text-align: center;
+}
+
+.personal-1 img {
+  width: 250px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+
+.personal-1 h3 {
+  font-size: 22px;
+}
+
+.personal-1 p {
+  padding: 0 50px;
+}
+
+.personal-1 a {
+  color: #CF2D3A;
+}

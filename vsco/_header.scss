@@ -1,0 +1,135 @@
+
+.header
+{
+    background-image: url(https://www.bboxgym.com/img/sucursales/toluca/instalaciones/03.jpg?1663818420);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+
+.menu
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo
+{
+    font-size: 24px;
+    color: #cf2d3a;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.menu .navbar ul li 
+{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a
+{
+    font-size: 18px;
+    padding: 20px;
+    color: #ffffff;
+    display: block;
+}
+
+.menu .navbar ul li a:hover
+{
+    color: #CF2D3A;
+}
+
+#menu
+{
+    display: none;
+}
+
+.menu-icono
+{
+    width: 25px;
+}
+
+.menu label
+{
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt
+{
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.header-txt h1, span, h3
+{
+    font-size: 110px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    color: #CF2D3A;
+    margin-bottom: 15px;
+}
+
+.header-txt span
+{
+    font-size: 25px;
+}
+
+.header-txt p
+{
+    color: #afafaf;
+    padding: 0 250px;
+    margin: 25px 0;
+}
+
+.btn-1 
+{
+    display: inline-block;
+    padding: 11px 25px;
+    background-color: #d82e37;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    margin: 25px 0;
+    border: 0;
+} 
+
+.btn-1:hover
+{
+    background-color: #841d22;
+}
+
+.header-dir
+{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dir h3
+{
+    font-size: 18px;
+}
+
+.dir p
+{
+    font-size: 22px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
